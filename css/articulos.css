@@ -1,0 +1,68 @@
+#articulos a{ 
+	position: relative;
+}
+
+.articulo{
+	background: #333;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.titulo{
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+}
+
+
+.articulo img{
+	width: 150px;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+
+.mininfo {
+	justify-content: center;
+	color: #fff;
+	font-size: 17px;
+	margin-top: -10%;
+	margin-left: 30%;
+	margin-right: 3%;
+}
+
+#edicionarti img{
+	position: relative;
+	width: 75%;
+	height: 10%;
+	margin-left: 10%;
+}
+
+#edicionarti p{
+	justify-content: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+@media (min-width:1024px){
+	.articulo{
+		width: 65%;
+	}
+
+	.articulo img{
+		width: 150px;
+		height: 100px;
+		margin-left: 15%;
+	}
+
+	#edicionarti img{
+		width: 29%;
+		height: 5%;
+		margin-left: 35%;
+	}		
+}
+
